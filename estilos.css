@@ -1,0 +1,151 @@
+body{
+background-color:  #02010a;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+header{
+background-color: #5b7989;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 90%;
+margin-left: 50px;
+}
+
+#contenido{
+animation: animationContenido 1s;
+}
+
+h1.cabecera{
+text-align: left;
+color: white;
+text-shadow: 2px 2px  #02010a;
+font-family: 'Dancing Script';
+display: flex;
+text-shadow: 2px 2px  #02010a;
+}
+
+.enlace {
+float: right;
+color: white;
+font-family: 'Dancing Script';
+font-size: 30px;
+text-shadow: 2px 2px  #02010a;
+margin: 3px;
+}
+
+a:active {
+text-decoration: none;
+}
+
+#paisaje1{
+background-color: #82c3a6;
+text-align: center;
+display:block;
+width: 90%;
+margin-left: 50px;
+}
+
+#paisaje1 figcaption{
+	font-family: 'Dancing Script';
+	font-size: 50px;
+	margin-bottom: 40px;
+	margin-top: -25px;
+	text-decoration: underline;
+}
+
+
+
+#paisaje1 img{
+	width: 85%;
+	height: 65%;
+	padding-left: 0px;
+	margin-top: 32px;
+  margin-bottom: 32px;
+	text-align: center;
+	box-shadow:2px 2px 2px 2px;
+	flex-wrap:wrap;
+}
+
+.contenedor{
+display: flex;
+display: -webkit-flex;
+background-color: #d5c75f;
+border: 1px;
+text-align: center;
+	}
+
+
+
+#paisaje2 img{
+display: block;
+transition-duration: 1s;
+padding-left: 0px;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 2px 2px 2px 2px;
+flex-wrap:wrap;
+	}
+
+#paisaje2 img:hover{
+transform: rotate(10deg);
+box-shadow:2px 2px 2px 2px #82c3a6;
+		}
+
+#paisaje3 img{
+display: block;
+text-align: center;
+padding: 0px;
+margin-left: auto;
+margin-right: auto;
+box-shadow:2px 2px 2px 2px;
+transition-duration: 0.7s;
+flex-wrap:wrap;
+		}
+
+#paisaje3 img:hover{
+box-shadow:2px 2px 2px 2px #82c3a6;
+transform: translate(20px, -5px)
+				}
+
+footer {
+background-color: #C6d5c5;
+margin-bottom: 10px;
+display: flex;
+flex-direction: row;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+width: 90%;
+margin-left: 50px;
+justify-content:space-around;
+font-family: 'Dancing Script';
+}
+
+@media (max-width: 900px) {
+.container{
+flex-direction: column;
+}
+.contenedor{
+flex-direction: column;
+}
+footer {
+flex-direction: column;
+}
+header{
+flex-direction: column;
+}
+}
+
+
+@-webkit-keyframes animationContenido{
+0%{
+margin-top: 150%;
+}60%{
+margin-top: -5%;
+}100%{
+margin-top: 0;
+}
+}

@@ -1,0 +1,180 @@
+body{
+background-color:  #02010a;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+header{
+background-color: #5b7989;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 90%;
+margin-left: 50px;
+}
+
+#contenido{
+animation: animationContenido 1s;
+}
+
+h1.cabecera{
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px  #02010a;
+  font-family: 'Dancing Script';
+  display: flex;
+  text-shadow: 2px 2px  #02010a;
+}
+
+.enlace {
+  float: right;
+  color: white;
+  font-family: 'Dancing Script';
+  font-size: 30px;
+  text-shadow: 2px 2px  #02010a;
+  margin: 3px;
+}
+
+a:active {
+text-decoration: none;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-left: 50px;
+}
+
+.contenedor2{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-left: 50px;
+}
+
+#paisaje1{
+background-color: #d5c75f;
+text-align: center;
+height: 35%;
+}
+
+#paisaje2{
+background-color: #d5c75f;
+text-align: center;
+height: 35%;
+
+}
+
+#paisaje3{
+background-color: #d5c75f;
+text-align: center;
+height: 35%;
+}
+
+#paisaje4{
+background-color: #d5c75f;
+text-align: center;
+height: 35%;
+}
+
+#paisaje5{
+background-color: #d5c75f;
+text-align: center;
+height: 35%;
+}
+
+#paisaje6{
+background-color: #d5c75f;
+text-align: center;
+height: 35%;
+}
+
+#paisaje1 img{
+	width: 60%;
+	box-shadow:2px 2px 2px 2px;
+  -webkit-filter:blur(10px);
+  filter: blur(10px;);
+    margin-top: 60px;
+}
+
+#paisaje2 img{
+	width: 60%;
+	box-shadow:2px 2px 2px 2px;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+    margin-top: 60px;
+}
+
+#paisaje3 img{
+	width: 60%;
+	box-shadow:2px 2px 2px 2px;
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+    margin-top: 60px;
+}
+
+#paisaje4 img{
+	width: 60%;
+	box-shadow:2px 2px 2px 2px;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+    margin-top: 60px;
+}
+
+#paisaje5 img{
+	width: 60%;
+	box-shadow:2px 2px 2px 2px;
+    margin-top: 60px;
+}
+
+#paisaje6 img{
+	width: 60%;
+	box-shadow:2px 2px 2px 2px;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+    margin-top: 60px;
+}
+
+footer {
+background-color: #C6d5c5;
+margin-bottom: 10px;
+display: flex;
+flex-direction: row;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+width: 90%;
+margin-left: 50px;
+justify-content:space-around;
+font-family: 'Dancing Script';
+}
+
+@media (max-width: 900px) {
+.container{
+flex-direction: column;
+}
+.contenedor{
+flex-direction: column;
+}
+.contenedor2{
+flex-direction: column;
+}
+footer {
+flex-direction: column;
+}
+header{
+flex-direction: column;
+}
+}
+
+@-webkit-keyframes animationContenido{
+0%{
+margin-top: 150%;
+}60%{
+margin-top: -5%;
+}100%{
+margin-top: 0;
+}
+}
